@@ -7,7 +7,7 @@ import PageTitle from "../common/PageTitle";
 import axios from "axios";
 import PropertyItem from "../components/items/PropertyItem";
 import Pagination from "../common/Pagination";
-import LogoImg from "/assets/images/logo/logoo.png?url";
+import LogoImg from "/assets/images/logo/logo.png?url";
 import OffCanvas from "../common/OffCanvas";
 import MobileMenu from "../common/MobileMenu";
 import Footer from "../common/Footer";

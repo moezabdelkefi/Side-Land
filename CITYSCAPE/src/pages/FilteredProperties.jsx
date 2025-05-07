@@ -59,7 +59,7 @@ const FilteredProperties = () => {
           height: "100vh",
         }}
       >
-        <img src="/assets/images/logo/logoo.png" alt="Loading..." style={{ maxWidth: "100px" }} />
+        <img src="/assets/images/logo/logo.png" alt="Loading..." style={{ maxWidth: "100px" }} />
       </div>
     );
   }

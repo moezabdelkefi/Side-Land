@@ -6,7 +6,7 @@ import FooterTwo from "../common/FooterTwo";
 import Breadcrumb from "../common/Breadcrumb";
 import PropertyItem from "../components/items/PropertyItem";
 import PageTitle from "../common/PageTitle";
-import LogoImg from "/assets/images/logo/logoo.png?url";
+import LogoImg from "/assets/images/logo/logo.png?url";
 import PropertyFilterBottom from "../components/PropertyFilterBottom";
 import Pagination from "../common/Pagination";
 import { PropertyFilterContext } from "../contextApi/PropertyFilterContext";

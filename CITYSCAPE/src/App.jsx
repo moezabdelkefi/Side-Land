@@ -111,7 +111,7 @@ function App() {
       <FloatingWhatsApp
         phoneNumber="1234567890"
         accountName="Grow And More Realty"
-        avatar="/assets/images/logo/logoo.png"
+        avatar="/assets/images/logo/logo.png"
         statusMessage="Your trusted real estate partner"
         chatMessage="Hello! 👋 How can we assist you in finding your dream property today?"
         placeholder="Type your message here..."

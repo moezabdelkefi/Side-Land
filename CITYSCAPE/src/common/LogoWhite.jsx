@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import LogoWhiteImage from '/assets/images/logo/logoo.png?url';
+import LogoWhiteImage from '/assets/images/logo/logo.png?url';
 
 const LogoWhite = () => {
     return (

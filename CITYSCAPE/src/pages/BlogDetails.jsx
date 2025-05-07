@@ -16,7 +16,7 @@ const BlogDetails = () => {
     const { blogData } = useContext(BlogDataContext); 
 
     return (
-        <>      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7616158179071093" crossorigin="anonymous"></script>
+        <>      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7616158179071093" crossOrigin="anonymous"></script>
         <PageTitle title="Grow and More" />
 
             {/* Header */}

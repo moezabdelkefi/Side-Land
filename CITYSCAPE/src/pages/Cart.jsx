@@ -8,7 +8,7 @@ import PageTitle from '../common/PageTitle';
 
 const Cart = () => {
     return (
-        <>      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7616158179071093" crossorigin="anonymous"></script>
+        <>      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7616158179071093" crossOrigin="anonymous"></script>
         <PageTitle title="CityScape - Shopping Cart" />
 
         <main className="body-bg">
