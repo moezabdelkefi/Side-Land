@@ -1,0 +1,158 @@
+{
+    "areas": [
+      {
+        "id": 1,
+        "name": "Downtown Dubai",
+        "short_name": "Downtown Dubai",
+        "about": "The mixed-use complex by Emaar Properties Downtown Dubai is located in the Central Business District. It runs from the northwest Al Wasl hamlet across Sheikh Zayed Road (E11). Bordering it on the northeast is Financial Centre Road (D71), and on the south side is Business Bay. Some monuments, shopping malls, and amusement Places in Downtown Dubai include Burj Khalifa Downtown Dubai Mall, Dancing Fountain, and Dubai Opera. Properties include high-rise structures, penthouses, villas, business city Downtown Dubai buildings, and luxury hotels in Downtown Dubai. Luxury flats for sale in this area rank as the second favourite after Dubai Marina.",
+        "in_short": [
+          "Mixed-use development in the heart of the city",
+          "Developed by Emaar Properties",
+          "Hosting the world’s tallest building, the Burj Khalifa",
+          "Lives out its tagline, 'the centre of now.'",
+          "A prime tourist destination with a community feel",
+          "Homes offering quality amenities",
+          "One of the best regions in Dubai for family-friendly apartments"
+        ],
+        "community_overview": {
+          "description": "Old and new districts are two different parts of Downtown Dubai. The old district has 35 buildings under traditional Arabian architecture with low-rise buildings. The New District has modern towers. Many lavish flats and pods are available for rent here, making it a popular choice. Other options include fashionable podium villas with penthouses, contributing to high-end residential architecture."
+        },
+        "properties": {
+          "apartments": {
+            "types": [
+              "Studio",
+              "One-bedroom",
+              "Two-bedroom",
+              "Three-bedroom",
+              "Four-bedroom"
+            ],
+            "features": [
+              "Kitchens",
+              "Living rooms",
+              "Dining areas",
+              "Big balconies",
+              "Covered parking",
+              "Master bedrooms with private bathrooms"
+            ]
+          },
+          "penthouses": {
+            "bedrooms": "Three to six",
+            "features": [
+              "Master bedroom",
+              "Laundry",
+              "Storage room",
+              "Maid quarters",
+              "Full bathroom"
+            ]
+          },
+          "villas": {
+            "locations": [
+              "Boulevard Point",
+              "The Residences"
+            ],
+            "bedrooms": "Three to four"
+          },
+          "off_plan": [
+            {
+              "name": "Elegance Tower",
+              "developer": "Damac Properties",
+              "units": ["One-bedroom", "Two-bedroom"],
+              "handover_date": "Q4 2026"
+            },
+            {
+              "name": "W Residences",
+              "developer": "Emaar Properties",
+              "units": ["One-bedroom", "Two-bedroom", "Three-bedroom"],
+              "handover_date": "2025"
+            },
+            {
+              "name": "Burj Crown",
+              "developer": "Emaar Properties",
+              "units": ["Two-bedroom", "Three-bedroom"],
+              "handover_date": "Q4 2023"
+            }
+          ]
+        },
+        "rental_trends": [
+          {
+            "type": "Studio",
+            "average_rent": 81000
+          },
+          {
+            "type": "One-bedroom",
+            "average_rent": 149500
+          },
+          {
+            "type": "Two-bedroom",
+            "average_rent": 278500
+          },
+          {
+            "type": "Three-bedroom",
+            "average_rent": 302000
+          }
+        ],
+        "sales_trends": [
+          {
+            "type": "Studio",
+            "average_price": 1733000
+          },
+          {
+            "type": "One-bedroom",
+            "average_price": 2091000
+          },
+          {
+            "type": "Two-bedroom",
+            "average_price": 3700000
+          },
+          {
+            "type": "Three-bedroom",
+            "average_price": 7846000
+          }
+        ],
+        "roi": {
+          "studio": 5.5,
+          "one_bedroom": 6.06,
+          "two_bedroom": 5.76,
+          "three_bedroom": 4.44
+        },
+        "famous_buildings": [
+          {
+            "name": "Burj Khalifa",
+            "one_bedroom_rent": 180000,
+            "two_bedroom_rent": 250000
+          },
+          {
+            "name": "Old Town",
+            "one_bedroom_rent": 105000,
+            "two_bedroom_rent": 140000
+          }
+        ],
+        "transportation": [
+          "Dubai Metro",
+          "Taxis",
+          "Dubai Trolley"
+        ],
+        "schools": [
+          "Toddler Town British Nursery",
+          "Blossom Nursery",
+          "Jumeirah International Nursery"
+        ],
+        "healthcare": [
+          {
+            "name": "Dubai Mall Medical Centre",
+            "type": "Clinic"
+          },
+          {
+            "name": "Mediclinic Dubai Mall",
+            "type": "Hospital"
+          }
+        ],
+        "hotels": [
+          "Armani Hotel",
+          "Palace Downtown",
+          "Kempinski The Boulevard Dubai"
+        ]
+      }
+    ]
+  }
+  

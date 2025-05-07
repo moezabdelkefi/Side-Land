@@ -1,0 +1,54 @@
+/* ======================= Services Section Start ========================= */
+.service-item {
+  border: 2px solid #C99200 !important;
+
+  border-radius: 10px;
+  padding: clamp(20px, 5vw, 40px);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  &__icon {
+    width: clamp(68px, 10vw, 88px);
+    height: clamp(68px, 10vw, 88px);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    img {
+      max-width: 55px;
+    }
+  }
+
+  &__title {
+    margin: 20px 0 24px;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #333;
+    @include lg-screen {
+      margin: 20px 0 16px;
+    }
+  }
+
+  &__text {
+    margin-bottom: clamp(20px, 5vw, 55px);
+    text-align: center;
+    color: #C99200;
+  }
+}
+/* ======================= Services Section End ========================= */

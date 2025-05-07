@@ -1,0 +1,848 @@
+{
+  "areas": [
+    {
+      "id": 1,
+      "name": "Downtown Dubai",
+      "short_name": "Downtown Dubai",
+      "about": "The mixed-use complex by Emaar Properties Downtown Dubai is located in the Central Business District. It runs from the northwest Al Wasl hamlet across Sheikh Zayed Road (E11). Bordering it on the northeast is Financial Centre Road (D71), and on the south side is Business Bay. Some monuments, shopping malls, and amusement Places in Downtown Dubai include Burj Khalifa Downtown Dubai Mall, Dancing Fountain, and Dubai Opera. Properties include high-rise structures, penthouses, villas, business city Downtown Dubai buildings, and luxury hotels in Downtown Dubai. Luxury flats for sale in this area rank as the second favourite after Dubai Marina.",
+      "in_short": [
+        "Mixed-use development in the heart of the city",
+        "Developed by Emaar Properties",
+        "Hosting the world’s tallest building, the Burj Khalifa",
+        "Lives out its tagline, 'the centre of now.'",
+        "A prime tourist destination with a community feel",
+        "Homes offering quality amenities",
+        "One of the best regions in Dubai for family-friendly apartments"
+      ],
+      "community_overview": {
+        "description": "Old and new districts are two different parts of Downtown Dubai. The old district has 35 buildings under traditional Arabian architecture with low-rise buildings. The New District has modern towers. Many lavish flats and pods are available for rent here, making it a popular choice. Other options include fashionable podium villas with penthouses, contributing to high-end residential architecture."
+      },
+      "properties": {
+        "apartments": "Types: Studio, One-bedroom, Two-bedroom, Three-bedroom, Four-bedroom. Features: Kitchens, Living rooms, Dining areas, Big balconies, Covered parking, Master bedrooms with private bathrooms.",
+        "penthouses": "Bedrooms: Three to six. Features: Master bedroom, Laundry, Storage room, Maid quarters, Full bathroom.",
+        "villas": "Locations: Boulevard Point, The Residences. Bedrooms: Three to four.",
+        "off-plan": [
+          {
+            "name": "Elegance Tower",
+            "developer": "Damac Properties",
+            "units": "One-bedroom, Two-bedroom",
+            "handover_date": "Q4 2026"
+          },
+          {
+            "name": "W Residences",
+            "developer": "Emaar Properties",
+            "units": "One-bedroom, Two-bedroom, Three-bedroom",
+            "handover_date": "2025"
+          },
+          {
+            "name": "Burj Crown",
+            "developer": "Emaar Properties",
+            "units": "Two-bedroom, Three-bedroom",
+            "handover_date": "Q4 2023"
+          }
+        ]
+      },
+      "rental_trends": [
+        {
+          "type": "Studio",
+          "average_rent": 81000
+        },
+        {
+          "type": "One-bedroom",
+          "average_rent": 149500
+        },
+        {
+          "type": "Two-bedroom",
+          "average_rent": 278500
+        },
+        {
+          "type": "Three-bedroom",
+          "average_rent": 302000
+        }
+      ],
+      "sales_trends": [
+        {
+          "type": "Studio",
+          "average_price": 1733000
+        },
+        {
+          "type": "One-bedroom",
+          "average_price": 2091000
+        },
+        {
+          "type": "Two-bedroom",
+          "average_price": 3700000
+        },
+        {
+          "type": "Three-bedroom",
+          "average_price": 7846000
+        }
+      ],
+      "roi": {
+        "studio": 5.5,
+        "one_bedroom": 6.06,
+        "two_bedroom": 5.76,
+        "three_bedroom": 4.44
+      },
+      "famous_buildings": [
+        {
+          "name": "Burj Khalifa",
+          "one_bedroom_rent": 180000,
+          "two_bedroom_rent": 250000
+        },
+        {
+          "name": "Old Town",
+          "one_bedroom_rent": 105000,
+          "two_bedroom_rent": 140000
+        }
+      ],
+      "transportation": [
+        "Dubai Metro",
+        "Taxis",
+        "Dubai Trolley"
+      ],
+      "schools": [
+        "Toddler Town British Nursery",
+        "Blossom Nursery",
+        "Jumeirah International Nursery"
+      ],
+      "healthcare": [
+        {
+          "name": "Dubai Mall Medical Centre",
+          "type": "Clinic"
+        },
+        {
+          "name": "Mediclinic Dubai Mall",
+          "type": "Hospital"
+        }
+      ],
+      "hotels": [
+        "Armani Hotel",
+        "Palace Downtown",
+        "Kempinski The Boulevard Dubai"
+      ],
+      "image": {
+        "thumb": "/assets/images/thumbs/project-img1.png",
+        "title": "Downtown Dubai",
+        "desc": "The heart of Dubai with iconic landmarks like Burj Khalifa and The Dubai Mall."
+      }
+    },
+    {
+      "id": 2,
+      "name": "Business Bay",
+      "short_name": "Business Bay",
+      "about": "Business Bay is a contemporary financial district packed with corporate high-rises, stylish apartments, and swanky hotels. Residents and visitors can enjoy upscale restaurants, cafes, and bars scattered around Dubai Water Canal. Known for its vibrant nightlife and proximity to Downtown Dubai, Business Bay is a hub of business and lifestyle.",
+      "in_short": [
+        "Major commercial and residential hub",
+        "Developed along Dubai Water Canal",
+        "Close proximity to Downtown Dubai",
+        "Home to upscale hotels and restaurants",
+        "Offers a mix of luxury apartments and business spaces"
+      ],
+      "community_overview": {
+        "description": "Business Bay is a thriving mixed-use district, attracting both corporate professionals and residents seeking an urban lifestyle. The area boasts waterfront views, modern architecture, and convenient access to major road networks."
+      },
+      "properties": {
+        "apartments": "Types: Studio, One-bedroom, Two-bedroom, Three-bedroom, Four-bedroom. Features: Contemporary designs, Open-plan layouts, Floor-to-ceiling windows, Balconies with waterfront views, Covered parking.",
+        "penthouses": "Bedrooms: Three to five. Features: Spacious living areas, Private terraces, Panoramic city views, High-end finishes, Maid's rooms.",
+        "villas": "Locations: Executive Towers, Bay Square. Bedrooms: Three to four.",
+        "off-plan": [
+          {
+            "name": "Peninsula Four",
+            "developer": "Select Group",
+            "units": "One-bedroom, Two-bedroom, Three-bedroom",
+            "handover_date": "Q2 2025"
+          },
+          {
+            "name": "Canal Heights",
+            "developer": "Damac Properties",
+            "units": "Studios, One-bedroom",
+            "handover_date": "Q3 2026"
+          }
+        ]
+      },
+      "rental_trends": [
+        {
+          "type": "Studio",
+          "average_rent": 65000
+        },
+        {
+          "type": "One-bedroom",
+          "average_rent": 105000
+        },
+        {
+          "type": "Two-bedroom",
+          "average_rent": 150000
+        },
+        {
+          "type": "Three-bedroom",
+          "average_rent": 220000
+        }
+      ],
+      "sales_trends": [
+        {
+          "type": "Studio",
+          "average_price": 1000000
+        },
+        {
+          "type": "One-bedroom",
+          "average_price": 1500000
+        },
+        {
+          "type": "Two-bedroom",
+          "average_price": 2500000
+        },
+        {
+          "type": "Three-bedroom",
+          "average_price": 4000000
+        }
+      ],
+      "roi": {
+        "studio": 6.5,
+        "one_bedroom": 6.2,
+        "two_bedroom": 5.8,
+        "three_bedroom": 5.3
+      },
+      "famous_buildings": [
+        {
+          "name": "The Opus",
+          "one_bedroom_rent": 120000,
+          "two_bedroom_rent": 180000
+        },
+        {
+          "name": "Executive Towers",
+          "one_bedroom_rent": 95000,
+          "two_bedroom_rent": 140000
+        }
+      ],
+      "transportation": [
+        "Dubai Metro (Business Bay Station)",
+        "Buses",
+        "Taxis"
+      ],
+      "schools": [
+        "Horizon English School",
+        "Jumeirah English Speaking School",
+        "Springdales School"
+      ],
+      "healthcare": [
+        {
+          "name": "Aster Clinic Business Bay",
+          "type": "Clinic"
+        },
+        {
+          "name": "Mediclinic Parkview",
+          "type": "Hospital"
+        }
+      ],
+      "hotels": [
+        "JW Marriott Marquis",
+        "The Oberoi Dubai",
+        "Paramount Hotel Dubai"
+      ],
+      "image": {
+        "thumb": "/assets/images/thumbs/project-img2.png",
+        "title": "Business Bay",
+        "desc": "A bustling hub of business and lifestyle along Dubai Water Canal."
+      }
+    },
+    {
+      "id": 3,
+      "name": "Dubai Marina",
+      "short_name": "Dubai Marina",
+      "about": "Dubai Marina is one of the central coastal districts in the UAE, located on the Persian Gulf side, known for its luxury high-rise buildings, beautiful marina views, and vibrant lifestyle. It hosts around 45,000 inhabitants and offers a dynamic mix of residential, commercial, and leisure spaces. The area is home to iconic buildings like Marina 101 and Cayan Tower, with easy access to highways and key city attractions.",
+      "in_short": [
+        "Prestigious waterfront district",
+        "Luxury high-rise buildings",
+        "Home to iconic landmarks like Marina 101 and Cayan Tower",
+        "Vibrant lifestyle with commercial, residential, and leisure spaces",
+        "Easy access to major highways and attractions"
+      ],
+      "community_overview": {
+        "description": "Dubai Marina is a thriving, mixed-use district developed in the early 2000s, known for its luxury waterfront living, vibrant dining and shopping destinations, and robust transport system. It's a hub for both residents and tourists seeking a lively, upscale community."
+      },
+      "properties": {
+        "apartments": "Types: Studio, One-bedroom, Two-bedroom, Three-bedroom, Four-bedroom. Features: Modern designs, Floor-to-ceiling windows, Balconies with marina views, Open-plan layouts, Covered parking.",
+        "penthouses": "Bedrooms: Three to five. Features: Spacious living areas, Private terraces, Panoramic views of the marina, High-end finishes, Maid's rooms.",
+        "villas": "Locations: Marina Cove, Palma Residences. Bedrooms: Three to five.",
+        "off-plan": [
+          {
+            "name": "Six Senses Residences",
+            "developer": "Select Group",
+            "units": "One-bedroom, Two-bedroom, Three-bedroom",
+            "handover_date": "Q4 2025"
+          },
+          {
+            "name": "Cavalli Tower",
+            "developer": "Damac Properties",
+            "units": "One-bedroom, Two-bedroom",
+            "handover_date": "Q1 2026"
+          }
+        ]
+      },
+      "rental_trends": [
+        {
+          "type": "Studio",
+          "average_rent": 70000
+        },
+        {
+          "type": "One-bedroom",
+          "average_rent": 115000
+        },
+        {
+          "type": "Two-bedroom",
+          "average_rent": 175000
+        },
+        {
+          "type": "Three-bedroom",
+          "average_rent": 250000
+        }
+      ],
+      "sales_trends": [
+        {
+          "type": "Studio",
+          "average_price": 1200000
+        },
+        {
+          "type": "One-bedroom",
+          "average_price": 1800000
+        },
+        {
+          "type": "Two-bedroom",
+          "average_price": 3000000
+        },
+        {
+          "type": "Three-bedroom",
+          "average_price": 5000000
+        }
+      ],
+      "roi": {
+        "studio": 6.0,
+        "one_bedroom": 5.5,
+        "two_bedroom": 5.2,
+        "three_bedroom": 4.8
+      },
+      "famous_buildings": [
+        {
+          "name": "Marina 101",
+          "one_bedroom_rent": 130000,
+          "two_bedroom_rent": 200000
+        },
+        {
+          "name": "Cayan Tower",
+          "one_bedroom_rent": 120000,
+          "two_bedroom_rent": 180000
+        }
+      ],
+      "transportation": [
+        "Dubai Metro (DMCC Station)",
+        "Dubai Tram",
+        "Water taxis and ferries"
+      ],
+      "schools": [
+        "Dubai British School",
+        "Emirates International School",
+        "American School of Dubai"
+      ],
+      "healthcare": [
+        {
+          "name": "Mediclinic Dubai Marina",
+          "type": "Clinic"
+        },
+        {
+          "name": "Emirates Hospital Dubai Marina",
+          "type": "Hospital"
+        }
+      ],
+      "hotels": [
+        "Address Dubai Marina",
+        "Grosvenor House Dubai",
+        "Le Royal Meridien Beach Resort & Spa"
+      ],
+      "image": {
+        "thumb": "/assets/images/thumbs/project-img3.png",
+        "title": "Dubai Marina",
+        "desc": "A vibrant coastal district known for its luxury living, marina views, and modern lifestyle."
+      }
+    },
+    {
+      "id": 4,
+      "name": "Jebel Ali Village",
+      "short_name": "Jebel Ali Village",
+      "about": "Jebel Ali Village is a luxury neighbourhood in the southwest of Dubai. It was first built in the late 1970s to house expatriates, but Nakheel’s renovation plans have significantly changed it. Today, Jebel Ali Village Dubai offers its residents a distinctive and opulent lifestyle by expertly combining modern living with a dash of nostalgia.",
+      "in_short": [
+        "Luxury neighbourhood in southwest Dubai",
+        "Expertly combines modern living with nostalgia",
+        "Close proximity to Sheikh Zayed Road",
+        "Access to Expo City Dubai, Dubai Marina, and Jebel Ali Free Zone",
+        "Ideal for families and professionals seeking a quiet yet luxurious living environment"
+      ],
+      "community_overview": {
+        "description": "Jebel Ali Village is a luxury residential area offering modern homes with sleek architecture and premium finishes. The area is ideal for families and professionals looking for comfort and convenience. The community features spacious villas, well-designed gardens, and a range of amenities."
+      },
+      "properties": {
+        "villas": "Types: Bedrooms 3 to 5. Features: Open floor plans, Private gardens, Access to parks and swimming pools, Ecologically friendly features, Smart home technologies.",
+        "off-plan": [
+          {
+            "name": "Palm Jebel Ali Frond I",
+            "developer": "Nakheel",
+            "handover_date": "Q4 2027",
+            "units": "Exclusive waterfront villas with private beaches, fitness facilities"
+          },
+          {
+            "name": "Equiti Gate",
+            "developer": "Refine Development",
+            "handover_date": "Q4 2024",
+            "units": "1-3 bedroom apartments with retail options and beautiful gardens"
+          }
+        ]
+      },
+      "rental_trends": [
+        {
+          "type": "Villa",
+          "average_rent": 250000
+        }
+      ],
+      "sales_trends": [
+        {
+          "type": "Villa",
+          "average_price": 4500000
+        }
+      ],
+      "roi": {
+        "villa": 6.5
+      },
+      "famous_buildings": [
+        {
+          "name": "Nakheel Villas",
+          "features": "Lavish living spaces, Modern facilities"
+        }
+      ],
+      "transportation": [
+        "Ibn Battuta Metro Station",
+        "RTA Bus Service",
+        "Uber and Careem Ride-Hailing"
+      ],
+      "schools": [
+        "Delhi Private School",
+        "The Arbor School",
+        "Jebel Ali Village Nursery"
+      ],
+      "healthcare": [
+        {
+          "name": "Medcare Medical Center",
+          "type": "Clinic"
+        },
+        {
+          "name": "Aster Clinic",
+          "type": "Clinic"
+        }
+      ],
+      "hotels": [
+        "JA The Resort",
+        "Premier Inn Ibn Battuta Plaza Mall",
+        "Oaks Ibn Battuta Gate Hotel"
+      ],
+      "image": {
+        "thumb": "/assets/images/thumbs/project-img4.png",
+        "title": "Jebel Ali Village",
+        "desc": "A luxurious neighbourhood combining modern living with nostalgic charm, offering spacious villas and ample amenities."
+      }
+    },
+    {
+      "id": 5,
+      "name": "Dubailand",
+      "short_name": "Dubailand",
+      "about": "Dubailand is one of Dubai’s most enormous and grandiose projects, notable for its outstanding interplay of business and shopping centres, residential districts, and recreation areas. Dubailand Dubai is a vast area still gradually growing outwards from central Dubai, with new launches and development. Dubailand has quickly become a favourite destination for working professionals, families, and investors because of its easy access to all critical areas of Dubai.",
+      "in_short": [
+      "Grandiose project with diverse facilities",
+      "Business centres, residential districts, and recreation areas",
+      "Easy access to major highways",
+      "Family-friendly and investment opportunities",
+      "Ongoing development and growth"
+      ],
+      "community_overview": {
+      "description": "Dubailand is a fully functional community offering a balanced lifestyle with residential, business, and recreational facilities. Its connectivity and diverse amenities make it a top choice for professionals, families, and investors."
+      },
+      "properties": {
+      "apartments": "Affordable and luxurious apartments for first-time buyers and investors. Modern amenities with well-designed layouts.",
+      "villas": "Luxury one-, two-, or three-storey villas in family-friendly communities like Arabian Ranches, Mudon, and The Villa.",
+      "off-plan": [
+        {
+        "name": "Samana Ibiza",
+        "developer": "Samana Developers",
+        "units": "Mediterranean-style residences",
+        "handover_date": "TBD"
+        },
+        {
+        "name": "Reef 1000",
+        "developer": "Reef Luxury Development",
+        "units": "Upscale residential units",
+        "handover_date": "TBD"
+        },
+        {
+        "name": "Serra at Ghaf Woods",
+        "developer": "Majid Al Futtaim",
+        "units": "Family houses in Ghaf Woods",
+        "handover_date": "TBD"
+        },
+        {
+        "name": "Damac Sun City",
+        "developer": "Damac Properties",
+        "units": "High-class residential settings",
+        "handover_date": "TBD"
+        },
+        {
+        "name": "Sobha Elwood",
+        "developer": "Sobha Realty",
+        "units": "High-end residences",
+        "handover_date": "TBD"
+        },
+        {
+        "name": "Cove Edition Residence 2",
+        "developer": "Imtiaz Developments",
+        "units": "Luxurious residences with views",
+        "handover_date": "TBD"
+        },
+        {
+        "name": "Vitalon at Athlon",
+        "developer": "Aldar Properties",
+        "units": "Modern active-lifestyle residences",
+        "handover_date": "TBD"
+        }
+      ]
+      },
+      "rental_trends": [
+      {
+        "type": "Studio",
+        "average_rent": 45000
+      },
+      {
+        "type": "One-bedroom",
+        "average_rent": 75000
+      },
+      {
+        "type": "Two-bedroom",
+        "average_rent": 100000
+      },
+      {
+        "type": "Three-bedroom",
+        "average_rent": 150000
+      }
+      ],
+      "sales_trends": [
+      {
+        "type": "Studio",
+        "average_price": 900000
+      },
+      {
+        "type": "One-bedroom",
+        "average_price": 1200000
+      },
+      {
+        "type": "Two-bedroom",
+        "average_price": 1800000
+      },
+      {
+        "type": "Three-bedroom",
+        "average_price": 2500000
+      }
+      ],
+      "roi": {
+      "studio": 7.0,
+      "one_bedroom": 6.5,
+      "two_bedroom": 6.0,
+      "three_bedroom": 5.5
+      },
+      "famous_buildings": [
+      {
+        "name": "Arabian Ranches",
+        "one_bedroom_rent": 120000,
+        "two_bedroom_rent": 180000
+      },
+      {
+        "name": "Mudon",
+        "one_bedroom_rent": 95000,
+        "two_bedroom_rent": 140000
+      }
+      ],
+      "transportation": [
+      "Mall of the Emirates Metro Station",
+      "Bus routes to key destinations",
+      "Ride-sharing services and taxis"
+      ],
+      "schools": [
+      "GEMS Metropole School",
+      "The Aquila School",
+      "Fairgreen International School"
+      ],
+      "healthcare": [
+      {
+        "name": "Mediclinic Parkview Hospital",
+        "type": "Hospital"
+      },
+      {
+        "name": "Aster Clinic Dubailand",
+        "type": "Clinic"
+      }
+      ],
+      "hotels": [
+      "Al Habtoor Polo Resort & Club",
+      "Park Inn by Radisson, Dubai Motor City",
+      "Abidos Hotel Apartment"
+      ],
+      "image": {
+      "thumb": "/assets/images/thumbs/project-img5.png",
+      "title": "Dubailand",
+      "desc": "A grandiose district blending business, residential, and recreational spaces with connectivity and modern amenities."
+      }
+    },
+    {
+      "id": 6,
+      "name": "Palm Jumeirah",
+      "short_name": "Palm Jumeirah",
+      "about": "The much-talked-about artificial island is the crown jewel of Dubai’s real estate market. It offers an upscale, recognizable lifestyle and is designed in the shape of a palm tree that goes ahead into the Arabian Gulf. Palm Jumeirah is accessible by Sheikh Zayed Road, the Dubai Tram, and the Palm Monorail, located off the coast of Dubai. As it has a unique charm and exclusiveness, this luxury area comprises a lively community of visitors, expatriates, and high-net-worth individuals.",
+      "in_short": [
+        "Artificial island shaped like a palm tree",
+        "Crown jewel of Dubai’s real estate market",
+        "Upscale, recognizable lifestyle",
+        "Accessible by Sheikh Zayed Road, Dubai Tram, and Palm Monorail",
+        "Lively community of visitors, expatriates, and high-net-worth individuals"
+      ],
+      "community_overview": {
+        "description": "Lavish Palm Jumeirah villas, stunning apartments, and incredible townhouses are some of the premium real estate options in Palm Jumeirah Dubai. Residential homes with waterfront views and private beaches are the most popular feature of Fronds. Besides offering luxury apartments and retail establishments, the Crescent offers luxury Palm Jumeirah resorts and serviced apartments. The attraction is enhanced by notable constructions like Atlantis The Royal Residences, One Palm by Omniyat, and The Palm Tower which provide modern facilities and breathtaking Palm Jumeirah views."
+      },
+      "properties": {
+        "villas": "Lavish Palm Jumeirah villas with waterfront views and private beaches.",
+        "apartments": "Stunning apartments with modern facilities and breathtaking views.",
+        "townhouses": "Incredible townhouses with premium real estate options.",
+        "off-plan": [
+          {
+            "name": "The Alba Furnished Residences",
+            "developer": "Omniyat Group",
+            "units": "Furnished residences",
+            "handover_date": "Q3 2028"
+          },
+          {
+            "name": "AVA at Palm Jumeirah",
+            "developer": "Omniyat Group",
+            "units": "Luxury residences",
+            "handover_date": "Q4 2025"
+          },
+          {
+            "name": "The Alba Residences Dorchester Collection",
+            "developer": "Omniyat Group",
+            "units": "Luxury residences",
+            "handover_date": "Q1 2028"
+          },
+          {
+            "name": "Muraba Residences",
+            "developer": "Muraba",
+            "units": "Luxury residences",
+            "handover_date": "Q1 2025"
+          },
+          {
+            "name": "Palm Beach Towers",
+            "developer": "Nakheel",
+            "units": "Luxury residences",
+            "handover_date": "Q1 2026"
+          }
+        ]
+      },
+      "rental_trends": [
+        {
+          "type": "Villa",
+          "average_rent": 500000
+        },
+        {
+          "type": "Apartment",
+          "average_rent": 300000
+        }
+      ],
+      "sales_trends": [
+        {
+          "type": "Villa",
+          "average_price": 10000000
+        },
+        {
+          "type": "Apartment",
+          "average_price": 5000000
+        }
+      ],
+      "roi": {
+        "villa": 5.5,
+        "apartment": 6.0
+      },
+      "famous_buildings": [
+        {
+          "name": "Atlantis The Palm",
+          "features": "Iconic venue with world-class dining, waterparks, and underwater suites."
+        },
+        {
+          "name": "FIVE Palm Jumeirah",
+          "features": "Known for palm Jumeirah viewpoint, fine dining, and lively atmosphere."
+        }
+      ],
+      "transportation": [
+        "The Palm Monorail",
+        "Dubai Metro and Tram",
+        "Ride-Sharing and Taxis",
+        "Cycling and Walking"
+      ],
+      "schools": [
+        "The International School of Choueifat",
+        "GEMS Wellington International School"
+      ],
+      "healthcare": [
+        {
+          "name": "Dubai London Clinic",
+          "type": "Clinic"
+        },
+        {
+          "name": "Emirates Hospitals Clinic",
+          "type": "Clinic"
+        }
+      ],
+      "hotels": [
+        "Atlantis The Palm",
+        "FIVE Palm Jumeirah",
+        "Waldorf Astoria Dubai Palm Jumeirah",
+        "Anantara the Palm Resort in Dubai"
+      ],
+      "image": {
+        "thumb": "/assets/images/thumbs/project-img6.png",
+        "title": "Palm Jumeirah",
+        "desc": "An artificial island offering an upscale, recognizable lifestyle with luxury real estate options."
+      }
+    },
+    {
+      "id": 7,
+      "name": "Damac Hills",
+      "short_name": "Damac Hills",
+      "about": "Damac Hills is an elegant, fully equipped, perfectly planned community with several facilities and activities. It is family-oriented, considering that it belongs to the category of luxury villas and apartments in the Dubai area. The Damac Hills location is in the western part of the city. It is well connected to some of the significant areas of the city, including Downtown Dubai, Dubai Marina, Palm Jumeirah, and many others.",
+      "in_short": [
+        "Elegant, fully equipped community",
+        "Luxury villas and apartments",
+        "Family-oriented",
+        "Well connected to major areas of Dubai",
+        "Calm environment with natural vegetation",
+        "Great houses, apartments, and elite properties"
+      ],
+      "community_overview": {
+        "description": "Damac Hills is a luxury residential area offering modern homes with sleek architecture and premium finishes. The area is ideal for families and professionals looking for comfort and convenience. The community features spacious villas, well-designed gardens, and a range of amenities."
+      },
+      "properties": {
+        "villas": "Types: Bedrooms 3 to 5. Features: Open floor plans, Private gardens, Access to parks and swimming pools, Ecologically friendly features, Smart home technologies.",
+        "apartments": "Modern apartments with spacious living areas, private gardens, and verandas with open views over the magnificent landscape.",
+        "townhouses": "Trendy townhomes with different designs to suit a variety of lifestyles.",
+        "off-plan": [
+          {
+            "name": "Address Villas Hillcrest",
+            "developer": "Emaar",
+            "units": "Luxury villas",
+            "handover_date": "Q2 2026"
+          },
+          {
+            "name": "Beachgate",
+            "developer": "Emaar",
+            "units": "Luxury apartments",
+            "handover_date": "Q4 2026"
+          },
+          {
+            "name": "Vie by Elie Saab at The Fields",
+            "developer": "Meydan",
+            "units": "Branded residences",
+            "handover_date": "Q4 2023"
+          },
+          {
+            "name": "Lagoons by DAMAC",
+            "developer": "DAMAC",
+            "units": "Residential units",
+            "handover_date": "Q4 2024"
+          },
+          {
+            "name": "Bella Vista at DAMAC Hills",
+            "developer": "DAMAC",
+            "units": "1- and 2-bedroom studios",
+            "handover_date": "TBD"
+          },
+          {
+            "name": "Autograph Collection",
+            "developer": "DAMAC",
+            "units": "Luxury residences",
+            "handover_date": "2027"
+          }
+        ]
+      },
+      "rental_trends": [
+        {
+          "type": "Villa",
+          "average_rent": 250000
+        },
+        {
+          "type": "Apartment",
+          "average_rent": 150000
+        }
+      ],
+      "sales_trends": [
+        {
+          "type": "Villa",
+          "average_price": 4500000
+        },
+        {
+          "type": "Apartment",
+          "average_price": 3000000
+        }
+      ],
+      "roi": {
+        "villa": 6.5,
+        "apartment": 6.0
+      },
+      "famous_buildings": [
+        {
+          "name": "Park Villas",
+          "features": "Large, peaceful houses with access to parks and greenery."
+        },
+        {
+          "name": "Golf Vita Apartments",
+          "features": "Views over the Trump International Golf Course, amenities for a healthy lifestyle."
+        },
+        {
+          "name": "Golf Promenade",
+          "features": "Luxury homes with panoramic views of the Trump International Golf Course."
+        },
+        {
+          "name": "Golf Town",
+          "features": "Townhouses and apartments with sports facilities, bike paths, and playgrounds."
+        }
+      ],
+      "transportation": [
+        "Private vehicles",
+        "Bus routes",
+        "Ride-hailing services like Uber and Careem"
+      ],
+      "schools": [
+        "Jebel Ali School"
+      ],
+      "healthcare": [
+        {
+          "name": "Medcare Medical Center",
+          "type": "Clinic"
+        },
+        {
+          "name": "Aster Clinic",
+          "type": "Clinic"
+        }
+      ],
+      "hotels": [
+        "Radisson Hotel"
+      ],
+      "image": {
+        "thumb": "/assets/images/thumbs/project-img3.png",
+        "title": "Damac Hills",
+        "desc": "An elegant, fully equipped community with luxury villas and apartments, offering a calm environment with natural vegetation and great houses."
+      }
+    }
+    
+  ]
+}
