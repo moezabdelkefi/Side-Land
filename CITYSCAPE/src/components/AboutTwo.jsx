@@ -1,62 +1,129 @@
 import React from "react";
-import SectionHeading from "../common/SectionHeading";
-import { aboutTwoRight, checkLists } from "../data/HomeTwoData/HomeTwoData";
-import Button from "../common/Button";
 
 const AboutTwo = () => {
   return (
-    <>
-      {/* ======================== About Two Section Start ========================== */}
-      <section className="about-two padding-y-60">
-        <div className="container container-two">
-          <div className="row gy-4 align-items-center">
-            <div className="col-lg-6">
-              <div className="about-two__content">
-                <h2
-                  style={{
-                    padding: "5px 10px",
-                    borderRadius: "3px",
-                    backgroundColor: "hsl(var(--white))",
-                    textTransform: "uppercase",
-                    letterSpacing: "0.11em",
-                    display: "inline-block",
-                  }}
-                  className=""
-                >
-                  Know About Us
-                </h2>
-                <h4
-                  style={{
-                    textAlign: "left",
-                    color: "black",
-                  }}
-                >
-                  Partnering with us means joining forces with real estate
-                  experts dedicated to growth, fostering a shared journey built
-                  on commitment, transparency, integrity, and reliability.
-                  Together, we grow and succeed.
-                </h4>
-                <div className="">
-                  <Button
-                    btnLink="/about-us"
-                    btnClass="btn-main"
-                    btnText="Learn more"
-                    spanClass="icon-right icon"
-                    iconClass="fas fa-arrow-right"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="about-two__thumb">
-                <img src={aboutTwoRight.thumb} alt="" className="cover-img" />
-              </div>
-            </div>
+    <section
+      className="why-invest-dubai"
+      style={{ backgroundColor: "black", color: "white" }}
+    >
+      <div className="container">
+        <h2 className="section-title">WHY INVEST IN DUBAI</h2>
+        <div className="benefits-row">
+          <div className="benefit-item">
+            <img
+              src="/assets/images/icons/growth.png"
+              alt="Economic Growth Icon"
+              className="benefit-icon"
+            />
+            <span className="iconTitle">Economic growth</span>
+          </div>
+          <div className="benefit-item">
+            <img
+              src="/assets/images/icons/tax.png"
+              alt="0% Tax Icon"
+              className="benefit-icon"
+            />
+            <span className="iconTitle">0% tax</span>
+          </div>
+          <div className="benefit-item">
+            <img
+              src="/assets/images/icons/roi.png"
+              alt="High ROI Icon"
+              className="benefit-icon"
+            />
+            <span className="iconTitle">High ROI</span>
+          </div>
+          <div className="benefit-item">
+            <img
+              src="/assets/images/icons/location.png"
+              alt="Strategic Location Icon"
+              className="benefit-icon"
+            />
+            <span className="iconTitle">Strategic location</span>
           </div>
         </div>
-      </section>
-      {/* ======================== About Two Section End ========================== */}
-    </>
+      </div>
+      <style jsx>{`
+        .iconTitle {
+          color: white;
+        }
+        .why-invest-dubai {
+          padding: 80px 0;
+          background-color: #fff;
+          text-align: left;
+        }
+
+        .section-title {
+          font-size: 2.5rem;
+          color: white;
+          margin-bottom: 1.5rem;
+          font-weight: 700;
+          position: relative;
+          padding-bottom: 15px;
+        }
+
+        .section-title:after {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 80px;
+          height: 4px;
+          background: #c99200;
+        }
+
+        .benefits-row {
+          display: flex;
+          justify-content: center;
+          gap: 7rem; /* Increased gap */
+          flex-wrap: wrap;
+          max-width: 800px;
+          margin: 0 auto;
+        }
+
+        .benefit-item {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          font-size: 1.2rem;
+          color: #333;
+          font-weight: 500;
+          white-space: nowrap;
+        }
+
+        .benefit-icon {
+          width: 50px; /* Increased size */
+          height: 50px; /* Increased size */
+          margin-bottom: 0.75rem; /* Slightly more space below the icon */
+          fill: #d4af37; /* Gold color */
+        }
+
+        @media (max-width: 768px) {
+          .benefits-row {
+            gap: 2rem; /* Adjusted gap for smaller screens */
+          }
+
+          .benefit-item {
+            font-size: 1rem;
+          }
+          .section-title {
+            font-size: 2rem;
+          }
+        }
+
+        @media (max-width: 480px) {
+          .benefits-row {
+            flex-direction: column;
+            gap: 1.5rem; /* Adjusted gap for very small screens */
+          }
+
+          .benefit-item {
+            white-space: normal;
+          }
+        }
+      `}</style>
+    </section>
   );
 };
 

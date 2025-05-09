@@ -150,7 +150,7 @@ export const checkLists = [
   },
 ];
 
-import AboutTwoImg from "../../../public/assets/images/thumbs/about-two-img.png?url";
+import AboutTwoImg from "/assets/images/thumbs/about-two-img.png?url";
 export const aboutTwoRight = {
   thumb: AboutTwoImg,
   title: "Property Management",

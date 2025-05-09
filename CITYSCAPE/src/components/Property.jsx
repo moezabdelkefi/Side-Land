@@ -34,34 +34,17 @@ const Property = ({ status }) => {
 
   return (
     <>
-      <section className="property padding-y-120">
+      <section className="property padding-y-100">
         <div className="container container-two">
           <br />
-          <div style={{ textAlign: "center" }}>
-            <h2
-              style={{
-                padding: "5px 10px",
-                borderRadius: "3px",
-                textTransform: "uppercase",
-                letterSpacing: "0.11em",
-                display: "inline-block",
-              }}
-            >
-              Latest property
-            </h2>
-            <h4
-              style={{
-                textAlign: "center",
-                color: "white",
-                marginTop: "20px",
-              }}
-              className="mb-5"
-            >
-              Investing in off-plan projects has never been more convenient.
-            </h4>
+          <div style={{ textAlign: "left" }}>
+            <h2 className="about-title">Featured Properties</h2>
           </div>
 
-          <div className="row gy-4 property-item-wrapper" style={{ marginBottom: "40px" }}>
+          <div
+            className="row gy-4 property-item-wrapper"
+            style={{ marginBottom: "40px" }}
+          >
             {properties.map((property, index) => (
               <div className="col-lg-4 col-sm-6" key={index}>
                 <PropertyItem
@@ -77,15 +60,35 @@ const Property = ({ status }) => {
               </div>
             ))}
           </div>
-          <div className="text-center property__btn">
+          {/* <div className="text-center property__btn">
             <Button
               btnLink="/property"
               btnClass="btn-main mb-5"
               btnText="Explore More"
               spanClass="icon-right"
             />
-          </div>
+          </div> */}
         </div>
+        <style jsx>{`
+          .about-title {
+            font-size: 2.5rem;
+            color: white;
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+            position: relative;
+            padding-bottom: 15px;
+          }
+
+          .about-title:after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 80px;
+            height: 4px;
+            background: #c99200;
+          }
+        `}</style>
       </section>
     </>
   );

@@ -1,67 +1,86 @@
 import React from "react";
 import TabFilter from "../common/TabFilter";
 
-const VideoPopup = () => {
+const BannerBackground = () => {
   return (
     <>
-      <div className="video-popup">
-        <div className="video-popup__thumb">
-          <div className="video-popup__shadow"></div>
-          <video autoPlay loop muted playsInline className="cover-video">
-            <source src="/assets/images/banner.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <div className="video-popup__title-container">
-            <h2 className="video-popup__title">
-              Unlock Your Dream Home in Dubai
-            </h2>
+      <div className="banner-containerr">
+        <div className="banner-background">
+          <div className="banner-overlay"></div>
+          {/* Added content container */}
+          <div className="banner-content">
+            <h1 className="banner-title">
+              Invest In The Future Of Dubai Real Estate
+            </h1>
+            <button className="banner-button">
+              Explore Properties <i className="fas fa-arrow-right"></i>
+            </button>
           </div>
-        </div>
-        <div className="tab-filter-container">
-          <TabFilter colClass="col-lg-3 col-sm-6 col-xs-6" />
         </div>
       </div>
       <style jsx>{`
-        .video-popup__thumb {
+        .banner-containerr {
           position: relative;
-          overflow: hidden;
-          height: 100vh;
+          width: 100%;
         }
 
-        .video-popup__shadow {
+        .banner-background {
+          height: 100vh;
+          background-image: url("/assets/images/thumbs/banner3.jpg");
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          position: relative; /* Added for content positioning */
+        }
+
+        .banner-overlay {
           position: absolute;
           top: 0;
           left: 0;
           width: 100%;
           height: 100%;
-          background: rgba(0, 0, 0, 0.5);
-          z-index: 1;
-          pointer-events: none;
+          background: rgba(0, 0, 0, 0.3);
         }
 
-        .cover-video {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
-
-        .video-popup__title-container {
+        /* New content styles */
+        .banner-content {
           position: absolute;
           top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          text-align: center;
-          width: 100%;
+          left: 10%;
+          transform: translateY(-50%);
           z-index: 2;
+          max-width: 600px;
         }
 
-        .video-popup__title {
-          font-size: 48px;
-          font-weight: bold;
-          color: #C99200;
+        .banner-title {
+          color: #fff;
+          font-size: 3rem;
+          font-weight: 700;
+          margin-bottom: 1.5rem;
+          line-height: 1.2;
         }
 
-        .tab-filter-container {
+        .banner-button {
+          background: #c99200;
+          color: white;
+          border: none;
+          padding: 12px 30px;
+          font-size: 1rem;
+          font-weight: 600;
+          border-radius: 4px;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        }
+
+        .banner-button:hover {
+          background: #c99200;
+        }
+
+        .banner-button i {
+          margin-left: 8px;
+        }
+
+        .tab-filter-wrapper {
           position: absolute;
           bottom: 10%;
           left: 50%;
@@ -71,61 +90,39 @@ const VideoPopup = () => {
         }
 
         @media (max-width: 768px) {
-          .video-popup__thumb {
-            height: auto;
+          .banner-background {
+            height: 50vh;
           }
 
-          .video-popup__shadow {
-            display: none;
+          .banner-content {
+            left: 5%;
+            padding-right: 5%;
+            top: 40%;
           }
 
-          .cover-video {
-            width: 100%;
-            height: auto;
-            object-fit: cover;
+          .banner-title {
+            font-size: 2rem;
           }
 
-          .video-popup__title {
-            font-size: 24px;
-          }
-
-          .tab-filter-container {
+          .tab-filter-wrapper {
             position: static;
             transform: none;
             width: 100%;
-            padding: 11px;
+            padding: 20px;
           }
         }
 
         @media (min-width: 769px) and (max-width: 1024px) {
-          .cover-video {
-            width: 100%;
-            height: 50vh;
-            object-fit: cover;
+          .banner-background {
+            height: 60vh;
           }
 
-          .video-popup__title {
-            font-size: 36px;
+          .banner-title {
+            font-size: 2.5rem;
           }
 
-          .tab-filter-container {
-            bottom: 20%;
-          }
-        }
-
-        @media (min-width: 1025px) {
-          .cover-video {
-            width: 100%;
-            height: 100vh;
-            object-fit: cover;
-          }
-
-          .video-popup__title {
-            font-size: 48px;
-          }
-
-          .tab-filter-container {
-            bottom: 10%;
+          .tab-filter-wrapper {
+            bottom: 15%;
           }
         }
       `}</style>
@@ -133,4 +130,4 @@ const VideoPopup = () => {
   );
 };
 
-export default VideoPopup;
+export default BannerBackground;

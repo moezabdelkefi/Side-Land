@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import NavMenu from "./NavMenu";
 import Logo from "./Logo";
 import { MobileMenuContext } from "../contextApi/MobileMenuContext";
+import { OffCanvasContext } from "../contextApi/OffCanvasContext";
 import { ScrollHideContext } from "../contextApi/ScrollHideContext";
 import Button from "./Button";
 import { Link } from "react-router-dom";
@@ -9,7 +10,11 @@ import LogoWhite from "./LogoWhite";
 
 const Header = (props) => {
   const { handleMobileMenuClick } = useContext(MobileMenuContext);
-  const { handleScrollHide, handleScrollHideLg } = useContext(ScrollHideContext);
+
+  const { handleOffCanvas } = useContext(OffCanvasContext);
+
+  const { handleScrollHide, handleScrollHideLg } =
+    useContext(ScrollHideContext);
 
   // Sticky header Code
   const [stickyHeader, setStickyHeader] = useState(false);
@@ -23,7 +28,11 @@ const Header = (props) => {
   return (
     <>
       {/* ==================== Header Start Here ==================== */}
-      <header className={`header ${props.headerClass} ${stickyHeader ? "fixed-header" : ""}`}>
+      <header
+        className={`header ${props.headerClass} ${
+          stickyHeader ? "fixed-header" : ""
+        }`}
+      >
         <div className="container container-two">
           <nav className="header-inner flx-between">
             {props.logoBlack && (
@@ -39,7 +48,9 @@ const Header = (props) => {
             )}
 
             {/* Menu Start  */}
-            <div className={`header-menu d-lg-block d-none ${props.headerMenusClass}`}>
+            <div
+              className={`header-menu d-lg-block d-none ${props.headerMenusClass}`}
+            >
               <NavMenu navMenusClass="" />
             </div>
             {/* Menu End  */}
@@ -47,23 +58,63 @@ const Header = (props) => {
             {/* Header Right start */}
             <div className="header-right flx-align">
               {props.showContactNumber && (
-                <Link to="#" className="contact-number text-poppins text-gray-800 fw-500 d-flex align-items-center gap-2">
+                <Link
+                  to="#"
+                  className="contact-number text-poppins text-gray-800 fw-500 d-flex align-items-center gap-2"
+                >
                   <span className="icon text-gradient font-20">
                     <i className="fas fa-phone"></i>
                   </span>
-                  <span className="text">+971 56 688 0685</span>
+                  <span className="text">(629) 555-0129</span>
                 </Link>
               )}
 
-              {props.showHeaderBtn && (
+              {/* {props.showOffCanvasBtn && (
+                <button
+                  type="button"
+                  className={`offcanvas-btn d-lg-block d-none ${props.offCanvasBtnClass}`}
+                  onClick={() => {
+                    handleOffCanvas();
+                    handleScrollHideLg();
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="24"
+                    viewBox="0 0 30 24"
+                    fill="none"
+                  >
+                    <line
+                      x1="0.0078125"
+                      y1="12.293"
+                      x2="30.0078"
+                      y2="12.293"
+                      stroke="#DAA520"
+                      strokeWidth="3"
+                    />
+                    <path
+                      d="M5.00781 22.293H30.0078"
+                      stroke="#DAA520"
+                      strokeWidth="3"
+                    />
+                    <path
+                      d="M10.0078 2.29297H30.0078"
+                      stroke="#DAA520"
+                      strokeWidth="3"
+                    />
+                  </svg>
+                </button>
+              )} */}
+
+              {/* {props.showHeaderBtn && (
                 <Button
                   btnLink={props.btnLink}
                   btnClass={props.btnClass}
-                  btnText={props.btnText}
-                  spanClass={props.spanClass}
+                  btnText={props.btnText}logo
                   iconClass="fas fa-arrow-right"
                 />
-              )}
+              )} */}
 
               <button
                 type="button"

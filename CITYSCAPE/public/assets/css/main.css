@@ -125,6 +125,7 @@
 /* Font Size For responsive devices End */
 /* ============================ Mixins Css End ============================ */
 /* ================================= Classes Css Start =========================== */
+
 @media (min-width: 1199px) {
     .container-two {
         max-width: 1310px;
@@ -1182,7 +1183,7 @@ body {
     font-family: var(--body-font);
     color: hsl(var(--body-color));
     word-break: break-word;
-    background-color: hsl(var(--white));
+    background-color: black;
     min-height: 100vh;
     display: flex;
     flex-direction: column;

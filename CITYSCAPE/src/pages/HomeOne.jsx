@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import TopHeader from "../common/TopHeader";
 import Header from "./../common/Header";
 import Banner from "../components/Banner";
-import About from "../components/About";
 import Property from "../components/Property";
 import PropertyType from "../components/PropertyType";
 import PropertyTypeThree from "./../components/PropertyTypeThree";
@@ -27,6 +26,7 @@ import { useLocation } from "react-router-dom";
 import PartnersSlider from "../components/PartnersSlider";
 import Button from "../common/Button";
 import Footer from "../common/Footer";
+import AboutUs from "../components/about";
 
 const HomeOne = () => {
   const location = useLocation();
@@ -64,14 +64,15 @@ const HomeOne = () => {
         />
               <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7616158179071093" crossOrigin="anonymous"></script>
         <VideoPopup />
-        <PropertyTypeThree />
-        <PartnersSlider />
+        <AboutUs />
+        {/* <PropertyTypeThree />
+        <PartnersSlider /> */}
+        <Property />
         <AboutTwo />
         <BannerTwo />
-        <Property />
-        <AreasSection maxItems={3} />
-        <Banner />
-        <Blog />
+        {/* <AreasSection maxItems={3} /> */}
+        {/* <Banner /> */}
+        {/* <Blog /> */}
         <Footer />
       </main>
     </>
