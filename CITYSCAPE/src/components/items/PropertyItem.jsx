@@ -16,22 +16,22 @@ const PropertyItem = ({ property, itemClass, badgeText, badgeClass }) => {
   return (
     <div className={`property-item ${itemClass}`}>
       <div className="property-item__thumb">
-        <Link
+        <img
+          src={`${import.meta.env.VITE_REACT_APP_API_BASE_URL}/${images[0]}`}
+          alt={title}
+          className="cover-img"
+          style={{
+            height: "200px", // Set a fixed height
+            objectFit: "cover", // Ensure the image scales properly
+            width: "100%", // Ensure it spans the container width
+          }}
+        />
+        {/* <Link
           to={propertyURL}
           state={{ images, title, price }}
           className="link"
         >
-          <img
-            src={`${import.meta.env.VITE_REACT_APP_API_BASE_URL}/${images[0]}`}
-            alt={title}
-            className="cover-img"
-            style={{
-              height: "200px", // Set a fixed height
-              objectFit: "cover", // Ensure the image scales properly
-              width: "100%", // Ensure it spans the container width
-            }}
-          />
-        </Link>
+        </Link> */}
       </div>
       <div
         className="property-item__content"
