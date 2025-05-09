@@ -7,7 +7,6 @@ const BannerBackground = () => {
       <div className="banner-containerr">
         <div className="banner-background">
           <div className="banner-overlay"></div>
-          {/* Added content container */}
           <div className="banner-content">
             <h1 className="banner-title">
               Invest In The Future Of Dubai Real Estate
@@ -25,12 +24,14 @@ const BannerBackground = () => {
         }
 
         .banner-background {
-          height: 100vh;
+          height: 80vh; /* Reduced from 100vh */
+          min-height: 500px; /* Added minimum height */
+          max-height: 800px; /* Added maximum height for very large screens */
           background-image: url("/assets/images/thumbs/banner3.jpg");
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
-          position: relative; /* Added for content positioning */
+          position: relative;
         }
 
         .banner-overlay {
@@ -42,7 +43,6 @@ const BannerBackground = () => {
           background: rgba(0, 0, 0, 0.3);
         }
 
-        /* New content styles */
         .banner-content {
           position: absolute;
           top: 50%;
@@ -54,7 +54,7 @@ const BannerBackground = () => {
 
         .banner-title {
           color: #fff;
-          font-size: 3rem;
+          font-size: clamp(2rem, 5vw, 3.5rem); /* Responsive font size */
           font-weight: 700;
           margin-bottom: 1.5rem;
           line-height: 1.2;
@@ -73,7 +73,7 @@ const BannerBackground = () => {
         }
 
         .banner-button:hover {
-          background: #c99200;
+          background: #e0a800;
         }
 
         .banner-button i {
@@ -91,17 +91,15 @@ const BannerBackground = () => {
 
         @media (max-width: 768px) {
           .banner-background {
-            height: 50vh;
+            height: 60vh; /* Increased from 50vh for better mobile display */
+            min-height: 400px;
           }
 
           .banner-content {
             left: 5%;
             padding-right: 5%;
             top: 40%;
-          }
-
-          .banner-title {
-            font-size: 2rem;
+            max-width: 90%;
           }
 
           .tab-filter-wrapper {
@@ -114,15 +112,22 @@ const BannerBackground = () => {
 
         @media (min-width: 769px) and (max-width: 1024px) {
           .banner-background {
-            height: 60vh;
-          }
-
-          .banner-title {
-            font-size: 2.5rem;
+            height: 70vh; /* Adjusted from 60vh */
           }
 
           .tab-filter-wrapper {
             bottom: 15%;
+          }
+        }
+
+        /* Extra large screens */
+        @media (min-width: 1600px) {
+          .banner-background {
+            height: 70vh;
+          }
+          
+          .banner-content {
+            left: 15%;
           }
         }
       `}</style>
