@@ -124,7 +124,7 @@ const Header = (props) => {
                   handleScrollHide();
                 }}
               >
-                <i className="las la-bars"></i>
+                <i className="las la-bars" style={{ color: 'white' }}></i>
               </button>
             </div>
 

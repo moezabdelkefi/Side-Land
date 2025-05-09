@@ -108,7 +108,7 @@ function App() {
           />
         </Routes>
       </BrowserRouter>
-      <FloatingWhatsApp
+      {/* <FloatingWhatsApp
         phoneNumber="1234567890"
         accountName="Grow And More Realty"
         avatar="/assets/images/logo/logo.png"
@@ -120,7 +120,7 @@ function App() {
         notificationSound={true}
         notificationDelay={30000}
         styles={{ zIndex: 1000 }}
-      />
+      /> */}
     </>
   );
 }
